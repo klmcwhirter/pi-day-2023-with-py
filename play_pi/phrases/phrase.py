@@ -4,7 +4,7 @@
 from dataclasses import dataclass
 from typing import Protocol
 
-from play_pi.palletes.notes import MusicalNote
+from play_pi.pallettes.notes import MusicalNote
 
 
 @dataclass

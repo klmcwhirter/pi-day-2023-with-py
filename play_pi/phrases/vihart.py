@@ -3,7 +3,7 @@
 
 from itertools import islice
 
-from play_pi.palletes import A_MINOR
+from play_pi.pallettes import A_MINOR
 from play_pi.phrases.phrase import Phrase
 from play_pi.utils.pi_digits import pi_digit_generator
 

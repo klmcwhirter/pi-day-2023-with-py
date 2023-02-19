@@ -7,7 +7,7 @@ __all__ = [
     'C_MAJOR'
 ]
 
-from play_pi.palletes.notes import MusicalNote, MusicalNotes
+from play_pi.pallettes.notes import MusicalNote, MusicalNotes
 
 A_MINOR = [
     MusicalNotes['C5'],  # 0
@@ -21,6 +21,7 @@ A_MINOR = [
     MusicalNotes['A4'],  # 8
     MusicalNotes['B4'],  # 9
 ]
+
 C_MAJOR = [
     MusicalNotes['E5'],  # 0
     MusicalNotes['C4'],  # 1

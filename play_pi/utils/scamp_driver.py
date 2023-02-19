@@ -71,6 +71,8 @@ class ScampDriver:
 
             playback_strategy(pitch=pitch, volume=volume, duration=duration)
 
+        wait(2.0)
+
     def stop(self) -> None:
 
         for pitch in (60, 57, 64):

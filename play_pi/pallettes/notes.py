@@ -1,4 +1,4 @@
-'''Frequency of notes interesting to build a pallete of 10 notes
+'''Frequency of notes interesting to build a pallette of 10 notes
 
     From https://en.wikipedia.org/wiki/Piano_key_frequencies
 '''

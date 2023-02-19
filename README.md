@@ -7,9 +7,9 @@ Output digits of Pi as phrases of a musical composition.
 ## Setup
 _This assumes a bash shell on Fedora 37._
 
-Install the python dependencies: ```./create_venv```
-
 Install the system dependencies: ```sudo dnf install fluidsynth lilypond```
+
+Install the python dependencies: ```./create_venv```
 
 ## Output
 You can listen to the output with these links:
