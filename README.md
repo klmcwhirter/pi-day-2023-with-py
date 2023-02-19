@@ -13,7 +13,7 @@ Install the system dependencies: ```sudo dnf install fluidsynth lilypond```
 
 ## Output
 You can listen to the output with these links:
-* [notes_with_pi_in_a_minor.mp3](./clips/notes_with_pi_in%20a_minor.mp3) - depicted below
+* [notes_with_pi_in_a_minor.mp3](./clips/notes_with_pi_in%20a_minor.mp3) - don't expect too much - _pi is randomly irrational after all_
 * [power_chords_with_pi.mp3](./clips/power_chords_with_pi.mp3) - _appropriate for such an irrational number_ ;)
 
 ```
@@ -62,8 +62,8 @@ C4 C5 G4 A4 A3 F4
 ## Credit where credit is due ...
 The inspiration for this project was taken partially from Vi Hart - [Pi Day 3/14 1:59AM - Spring Ahead](https://www.youtube.com/watch?v=AHrth9lOfzo&ab_channel=Vihart).
 
-I was especislly intrigued by her usage of segments of the digits of PI as repeating, arpeggiatic phrases of the piece.
+I was especially intrigued by her usage of segments of the digits of PI as repeating, arpeggiatic phrases of the piece.
 
-I was also inspired by Marc Evanstein's work - [The Making of the Rhythm of the Primes](https://youtu.be/GzrTmukxUxA) through hich I was introduced to ...
+I was also inspired by Marc Evanstein's work - [The Making of the Rhythm of the Primes](https://youtu.be/GzrTmukxUxA) through which I was introduced to ...
 
 The [SCAMP library](http://scamp.marcevanstein.com/).
