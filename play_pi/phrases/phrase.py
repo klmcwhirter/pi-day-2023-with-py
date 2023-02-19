@@ -17,6 +17,22 @@ class Phrase:
     def notes(self) -> str:
         return ' '.join([self.pallete[d].name for d in self.digits])
 
+    @property
+    def notes_as_pitch(self) -> str:
+        return ' '.join([str(self.pallete[d].midi_num) for d in self.digits])
+
+    @property
+    def notes_as_pitch_with_repeat(self) -> list[int]:
+        return [self.pallete[d].midi_num for _ in range(self.repeat) for d in self.digits]
+
+    @property
+    def repeat(self) -> int:
+        return self._repeat
+
+    @repeat.setter
+    def repeat(self, val: int) -> None:
+        self._repeat = val
+
 
 class PhrasesStrategy(Protocol):
     @property

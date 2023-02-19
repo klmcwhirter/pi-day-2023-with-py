@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pi-day-2023-with-py"
+version = "0.1.0"
+description = ""
+authors = ["Kevin McWhirter <klmcwhirter@gmail.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+docopt = "^0.6"
+scamp = "^0.9.1.post9"
+abjad = "^3.15"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2"
+flake8 = "^6"
+pytest = "^7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -3,7 +3,7 @@
 
 from itertools import islice
 
-from play_pi.palletes import C_MAJOR
+from play_pi.palletes import A_MINOR
 from play_pi.phrases.phrase import Phrase
 from play_pi.utils.pi_digits import pi_digit_generator
 
@@ -12,7 +12,7 @@ class ViHartPhrasesStrategy:
     # 3141592653589793238462643383279502884197169399375105820974944592307816 - 70 digits
     DIGITS_TO_USE = 70
     PHRASE_LENS = [5, 3, 4, 3, 4, 5, 4, 8, 3, 4, 21, 6]
-    PHRASE_KEYS = [C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR, C_MAJOR]
+    PHRASE_KEYS = [A_MINOR, A_MINOR, A_MINOR, A_MINOR, A_MINOR, A_MINOR, A_MINOR, A_MINOR, A_MINOR, A_MINOR, A_MINOR, A_MINOR]
 
     def __init__(self) -> None:
         self._digits_used = list(pi_digit_generator(ViHartPhrasesStrategy.DIGITS_TO_USE))
