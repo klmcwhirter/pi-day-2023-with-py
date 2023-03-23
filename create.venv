@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+rm -fr .venv
+
+python --version
+
+pipx install poetry
+pipx upgrade poetry
+
+poetry env use -- python3.11
+
+poetry install
+
+echo
+echo '#*----------------------------------------------------------------------*'
+echo
+
+poetry show --tree
